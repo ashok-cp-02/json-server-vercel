@@ -3321,7 +3321,7 @@
         "fields": [
           {
             "id": "81",
-            "controltype": "textbox",
+            "controltype": "date",
             "data_type": "text",
             "sequence_number": 9,
             "label_text": "Plan Date",
@@ -3339,7 +3339,7 @@
           },
           {
             "id": "82",
-            "controltype": "textbox",
+            "controltype": "date",
             "data_type": "text",
             "sequence_number": 10,
             "label_text": "Due Date",
