@@ -1,0 +1,3432 @@
+{
+
+  "Plan_Masterdata": [
+
+    {
+      "islookup": false,
+      "masterid": "500101",
+      "mastervalues": [
+        {
+          "optionid": 5001011,
+          "optionvalue": "Project SaasBuyout"
+        },
+        {
+          "optionid": 5001012,
+          "optionvalue": "2023 Sales Adhoc"
+        },
+        {
+          "optionid": 5001013,
+          "optionvalue": "FL Move"
+        },
+        {
+          "optionid": 5001014,
+          "optionvalue": "2023 BUOPS"
+        },
+        {
+          "optionid": 5001015,
+          "optionvalue": "2023 Operations Adhoc"
+        }
+      ]
+    },
+    {
+      "islookup": false,
+      "masterid": "500102",
+      "mastervalues": [
+        {
+          "optionid": 5001021,
+          "optionvalue": "Yet to Start"
+        },
+        {
+          "optionid": 5001022,
+          "optionvalue": "In Progress"
+        },
+        {
+          "optionid": 5001023,
+          "optionvalue": "Complete"
+        },
+        {
+          "optionid": 5001024,
+          "optionvalue": "Backlog"
+        }
+      ]
+    },
+    {
+      "islookup": false,
+      "masterid": "500103",
+      "mastervalues": [
+        {
+          "optionid": 5001021,
+          "optionvalue": "A"
+        },
+        {
+          "optionid": 5001022,
+          "optionvalue": "B"
+        },
+        {
+          "optionid": 5001023,
+          "optionvalue": "C"
+        },
+        {
+          "optionid": 5001024,
+          "optionvalue": "D"
+        }
+      ]
+    }
+  ],
+
+  "Plan_Dataset": {
+    "entityid": "10010",
+    "entity": "Entity",
+    "entityData": [
+      {
+        "datasetid": 20010,
+        "title": "All Active Plan",
+        "isdefault": true,
+        "isselected": true
+      },
+      {
+        "datasetid": 20011,
+        "title": "In Progress Plan",
+        "isdefault": true,
+        "isselected": false
+      }
+    ]
+  },
+
+  "Plan_Listdata": {
+    "data": [
+      {
+        "icds_entity_id": 7135,
+        "logical_name": "utbl_control1",
+        "Title": "Sales tech stack optimize",
+        "Chunk": "Working Session",
+        "Project": "2023 Sales Adhoc",
+        "DueDate": "07/28/2023",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7136,
+        "logical_name": "utbl_control2",
+        "Title": "ZoomInfo search",
+        "Chunk": "Working Session",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "07/28/2023",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7137,
+        "logical_name": "utbl_control3",
+        "Title": "CRM customer list clean up",
+        "Chunk": "Working Session",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/08/2023",
+        "Priority": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7138,
+        "logical_name": "utbl_control4",
+        "Title": "SBO-Case Studies for deals completed",
+        "Chunk": "Insights",
+        "Project": "Project SaasBuyout",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7139,
+        "logical_name": "utbl_control5",
+        "Title": "SBO-Business Model",
+        "Chunk": "Insights",
+        "Project": "Project SaasBuyout",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7140,
+        "logical_name": "utbl_control6",
+        "Title": "SBO-DRS link research",
+        "Chunk": "Insights",
+        "Project": "Project SaasBuyout",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7141,
+        "logical_name": "utbl_control7",
+        "Title": "bMobile Sales Site Down / Root cause / how to avoid in future / Action Plan",
+        "Chunk": "Insight",
+        "Project": "2023 BUOPS",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7142,
+        "logical_name": "utbl_control8",
+        "Title": "HP - Managed Servers",
+        "Chunk": "Initiatives",
+        "Project": "2023 BUOPS",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7143,
+        "logical_name": "utbl_control9",
+        "Title": "Reporting From Arc CRM - Sales Data",
+        "Chunk": "Initiatives",
+        "Project": "2023 BUOPS",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7144,
+        "logical_name": "utbl_control10",
+        "Title": "Which Data Available / Where / How do we know?",
+        "Chunk": "Initiatives",
+        "Project": "2023 OPSDesign",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7145,
+        "logical_name": "utbl_control11",
+        "Title": "Account Mgmt",
+        "Chunk": "Initiatives",
+        "Project": "2023 OPSDesign",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7146,
+        "logical_name": "utbl_control12",
+        "Title": "Business Results",
+        "Chunk": "Initiatives",
+        "Project": "2023 OPSDesign",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7147,
+        "logical_name": "utbl_control13",
+        "Title": "Amazon Seller",
+        "Chunk": "Initiatives",
+        "Project": "2023 VTS Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7148,
+        "logical_name": "utbl_control14",
+        "Title": "Trainer Hispanic / Consultant",
+        "Chunk": "Initiatives",
+        "Project": "2023 CMS Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "D",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7149,
+        "logical_name": "utbl_control15",
+        "Title": "Known Source / Permanent Address Lease Cheap",
+        "Chunk": "House",
+        "Project": "FL Move",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7150,
+        "logical_name": "utbl_control16",
+        "Title": "2 week stay each in 3 places St Pete/Tampa, Sarasota, WestPalm Beach",
+        "Chunk": "House",
+        "Project": "FL Move",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7151,
+        "logical_name": "utbl_control17",
+        "Title": "Sub Lease or Apartment ?",
+        "Chunk": "House",
+        "Project": "FL Move",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7152,
+        "logical_name": "utbl_control18",
+        "Title": "Domicile Work - Detailed Plan",
+        "Chunk": "GRC",
+        "Project": "FL Move",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7153,
+        "logical_name": "utbl_control19",
+        "Title": "federal form for operating bank account",
+        "Chunk": "GRC",
+        "Project": "FL Move",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7154,
+        "logical_name": "utbl_control20",
+        "Title": "Domicile Audits",
+        "Chunk": "GRC",
+        "Project": "FL Move",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7155,
+        "logical_name": "utbl_control21",
+        "Title": "Monitor - Bank Balances & Treasury Transactions",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/08/2024",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7156,
+        "logical_name": "utbl_control22",
+        "Title": "Validate and followup Bank Transfers",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/08/2024",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7157,
+        "logical_name": "utbl_control23",
+        "Title": "Validate Online & CC Payments",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/08/2024",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7158,
+        "logical_name": "utbl_control24",
+        "Title": "Monitor - AR Deposits",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/09/2024",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7159,
+        "logical_name": "utbl_control25",
+        "Title": "BOD Call",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/09/2024",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7160,
+        "logical_name": "utbl_control26",
+        "Title": "AP Validation",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/09/2024",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7161,
+        "logical_name": "utbl_control27",
+        "Title": "Monitor - Bank Balances & Treasury Transactions",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/09/2024",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7162,
+        "logical_name": "utbl_control28",
+        "Title": "Validate and followup Bank Transfers",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/09/2024",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7163,
+        "logical_name": "utbl_control29",
+        "Title": "Validate Online & CC Payments",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/09/2024",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7164,
+        "logical_name": "utbl_control30",
+        "Title": "Monitor - AR Deposits",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/12/2024",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7165,
+        "logical_name": "utbl_control31",
+        "Title": "RCM-LG NPI Tracker on Data Scrape 95 Items",
+        "Chunk": "Execution",
+        "Project": "2023 VTS Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7166,
+        "logical_name": "utbl_control32",
+        "Title": "RCM-LG NPI Tracker on Audit with the Data Scrape 66 Items",
+        "Chunk": "Execution",
+        "Project": "2023 VTS Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7167,
+        "logical_name": "utbl_control33",
+        "Title": "Product Release Plan and Approval meeting",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Pipeline",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7168,
+        "logical_name": "utbl_control34",
+        "Title": "COO Reporting",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Pipeline",
+        "DueDate": "09/01/2023",
+        "Priority": "C",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7169,
+        "logical_name": "utbl_control35",
+        "Title": "ByDept2Sales",
+        "Chunk": "Execution",
+        "Project": "By Dept2",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7170,
+        "logical_name": "utbl_control36",
+        "Title": "All BU Contract Employee detail, Working hours",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "C",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7171,
+        "logical_name": "utbl_control37",
+        "Title": "STS Check dealer list  Elaine",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7172,
+        "logical_name": "utbl_control38",
+        "Title": "Hexnode pricing",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7173,
+        "logical_name": "utbl_control39",
+        "Title": "HR Siva R&R",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "C",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7174,
+        "logical_name": "utbl_control40",
+        "Title": "BEM Projects",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "C",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7175,
+        "logical_name": "utbl_control41",
+        "Title": "ALL BU High level plan task - April",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "C",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7176,
+        "logical_name": "utbl_control42",
+        "Title": "Tom KT plan",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7177,
+        "logical_name": "utbl_control43",
+        "Title": "Ravi/Munib CMS Release Notes process",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7178,
+        "logical_name": "utbl_control44",
+        "Title": "Weekly summary report VTS leads",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5": "A",
+        "D6": "A"
+      }
+
+
+    ],
+    "totalRecords": 37
+  },
+
+  "Plan_DatasetFieldInfo": {
+    "datasetid": "fa4d043d-86ec-434c-ba37-903fb91da9ba",
+    "title": "Default Lead",
+    "columndata": [
+      {
+        "attributeid": "30010",
+        "displayname": "Title",
+        "ismapped": true,
+        "seq": 10,
+        "screenfieldid": 40010,
+        "dataindex": "Title",
+        "visible": true,
+        "istitle": true,
+        "columnwidth": 300
+      },
+      {
+        "attributeid": "30020",
+        "displayname": "Chunk",
+        "ismapped": true,
+        "seq": 20,
+        "screenfieldid": 40011,
+        "dataindex": "Chunk",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30030",
+        "displayname": "Project",
+        "ismapped": true,
+        "seq": 30,
+        "screenfieldid": 40012,
+        "dataindex": "Project",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30040",
+        "displayname": "Due Date",
+        "ismapped": true,
+        "seq": 40,
+        "screenfieldid": 40013,
+        "dataindex": "DueDate",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30050",
+        "displayname": "Priority",
+        "ismapped": true,
+        "seq": 50,
+        "screenfieldid": 40014,
+        "dataindex": "Priority",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30060",
+        "displayname": "D1",
+        "ismapped": true,
+        "seq": 60,
+        "screenfieldid": 40015,
+        "dataindex": "D1",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30070",
+        "displayname": "D2",
+        "ismapped": true,
+        "seq": 70,
+        "screenfieldid": 40016,
+        "dataindex": "D2",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30080",
+        "displayname": "D3",
+        "ismapped": true,
+        "seq": 80,
+        "screenfieldid": 40017,
+        "dataindex": "D3",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30090",
+        "displayname": "D4",
+        "ismapped": true,
+        "seq": 90,
+        "screenfieldid": 40018,
+        "dataindex": "D4",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30100",
+        "displayname": "D5",
+        "ismapped": true,
+        "seq": 100,
+        "screenfieldid": 40019,
+        "dataindex": "D5",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30110",
+        "displayname": "D6",
+        "ismapped": true,
+        "seq": 110,
+        "screenfieldid": 40020,
+        "dataindex": "D6",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      }
+    ],
+    "filterdata": [
+
+      {
+        "islookup": false,
+        "filterid": "Project",
+        "filterdisplayname": "Project",
+        "ismapped": true,
+        "isquickfilter": true,
+        "masterid": "500101",
+        "keyfield": "optionid",
+        "displayfield": "optionvalue",
+        "controltype": "multiselect",
+        "defaultvalue": null,
+        "apioutputskey": "optionid",
+        "apioutputvalue": "optionvalue",
+        "screenfieldid": "40012",
+        "filtercategory": "",
+        "defaultvalall": ""
+      },
+      {
+        "islookup": false,
+        "filterid": "Status",
+        "filterdisplayname": "Status",
+        "ismapped": true,
+        "isquickfilter": true,
+        "masterid": "500102",
+        "keyfield": "optionid",
+        "displayfield": "optionvalue",
+        "controltype": "multiselect",
+        "defaultvalue": null,
+        "apioutputskey": "optionid",
+        "apioutputvalue": "optionvalue",
+        "screenfieldid": "40013",
+        "filtercategory": "",
+        "defaultvalall": ""
+      },
+      {
+        "islookup": false,
+        "filterid": "Priority",
+        "filterdisplayname": "Priority",
+        "ismapped": true,
+        "isquickfilter": true,
+        "masterid": "500103",
+        "keyfield": "optionid",
+        "displayfield": "optionvalue",
+        "controltype": "multiselect",
+        "defaultvalue": null,
+        "apioutputskey": "optionid",
+        "apioutputvalue": "optionvalue",
+        "screenfieldid": "40013",
+        "filtercategory": "",
+        "defaultvalall": ""
+      },
+      {
+        "islookup": false,
+        "filterid": "Resource",
+        "filterdisplayname": "Resource",
+        "ismapped": true,
+        "isquickfilter": true,
+        "masterid": "",
+        "keyfield": "",
+        "displayfield": "",
+        "controltype": "textbox",
+        "defaultvalue": null,
+        "apioutputskey": "",
+        "apioutputvalue": "",
+        "screenfieldid": "40010",
+        "filtercategory": "",
+        "defaultvalall": ""
+      }
+    ],
+    "groupbydata": [
+      {
+        "attributeid": 30030,
+        "displayname": "Project",
+        "ismapped": true,
+        "type": "",
+        "direction": "",
+        "masterid": "500101",
+        "defaultvalue": "",
+        "screenfieldid": 40012
+      },
+      {
+        "attributeid": 30040,
+        "displayname": "Status",
+        "ismapped": true,
+        "type": "",
+        "direction": "",
+        "masterid": "500102",
+        "defaultvalue": "",
+        "screenfieldid": 40013
+      }
+    ]
+  },
+
+  "PlanActual_Masterdata": [
+
+    {
+      "islookup": false,
+      "masterid": "500101",
+      "mastervalues": [
+        {
+          "optionid": 5001011,
+          "optionvalue": "Project SaasBuyout"
+        },
+        {
+          "optionid": 5001012,
+          "optionvalue": "2023 Sales Adhoc"
+        },
+        {
+          "optionid": 5001013,
+          "optionvalue": "FL Move"
+        },
+        {
+          "optionid": 5001014,
+          "optionvalue": "2023 BUOPS"
+        },
+        {
+          "optionid": 5001015,
+          "optionvalue": "2023 Operations Adhoc"
+        }
+      ]
+    },
+    {
+      "islookup": false,
+      "masterid": "500102",
+      "mastervalues": [
+        {
+          "optionid": 5001021,
+          "optionvalue": "Yet to Start"
+        },
+        {
+          "optionid": 5001022,
+          "optionvalue": "In Progress"
+        },
+        {
+          "optionid": 5001023,
+          "optionvalue": "Complete"
+        },
+        {
+          "optionid": 5001024,
+          "optionvalue": "Backlog"
+        }
+      ]
+    },
+    {
+      "islookup": false,
+      "masterid": "500103",
+      "mastervalues": [
+        {
+          "optionid": 5001021,
+          "optionvalue": "A"
+        },
+        {
+          "optionid": 5001022,
+          "optionvalue": "B"
+        },
+        {
+          "optionid": 5001023,
+          "optionvalue": "C"
+        },
+        {
+          "optionid": 5001024,
+          "optionvalue": "D"
+        }
+      ]
+    }
+  ],
+
+  "PlanActual_Dataset": {
+    "entityid": "10010",
+    "entity": "Entity",
+    "entityData": [
+      {
+        "datasetid": 20010,
+        "title": "All Active Plan",
+        "isdefault": true,
+        "isselected": true
+      },
+      {
+        "datasetid": 20011,
+        "title": "In Progress Plan",
+        "isdefault": true,
+        "isselected": false
+      }
+    ]
+  },
+
+  "PlanActual_Listdata": {
+    "data": [
+      {
+        "icds_entity_id": 7135,
+        "logical_name": "utbl_control1",
+        "Title": "Sales tech stack optimize",
+        "Chunk": "Working Session",
+        "Project": "2023 Sales Adhoc",
+        "DueDate": "07/28/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "Untouched ",
+        "D3": "Overdue",
+        "D4": "-",
+        "D5": "-",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7136,
+        "logical_name": "utbl_control2",
+        "Title": "ZoomInfo search",
+        "Chunk": "Working Session",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "07/28/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "Overdue",
+        "D3": "Untouched",
+        "D4": "Overdue",
+        "D5": "Made Progress",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7137,
+        "logical_name": "utbl_control3",
+        "Title": "CRM customer list clean up",
+        "Chunk": "Working Session",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/08/2023",
+        "Priority": "A",
+        "Untouched": "2",
+        "Extended": "4",
+        "D1": "Untouched",
+        "D2": "Untouched",
+        "D3": "Overdue",
+        "D4": "-",
+        "D5": "Overdue",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7138,
+        "logical_name": "utbl_control4",
+        "Title": "SBO-Case Studies for deals completed",
+        "Chunk": "Insights",
+        "Project": "Project SaasBuyout",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "3",
+        "Extended": "4",
+        "D1": "Overdue",
+        "D2": "Made Progress",
+        "D3": "Untouched",
+        "D4": "Overdue",
+        "D5": "Untouched",
+        "D6": "Made Progress"
+      },
+      {
+        "icds_entity_id": 7139,
+        "logical_name": "utbl_control5",
+        "Title": "SBO-Business Model",
+        "Chunk": "Insights",
+        "Project": "Project SaasBuyout",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "-",
+        "Extended": "1",
+        "D1": "Made Progress",
+        "D2": "Untouched",
+        "D3": "Made Progress",
+        "D4": "Overdue",
+        "D5": "Made Progress",
+        "D6": "Overdue"
+      },
+      {
+        "icds_entity_id": 7140,
+        "logical_name": "utbl_control6",
+        "Title": "SBO-DRS link research",
+        "Chunk": "Insights",
+        "Project": "Project SaasBuyout",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "Made Progress",
+        "D3": "Untouched",
+        "D4": "-",
+        "D5": "Made Progress",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7141,
+        "logical_name": "utbl_control7",
+        "Title": "bMobile Sales Site Down / Root cause / how to avoid in future / Action Plan",
+        "Chunk": "Insight",
+        "Project": "2023 BUOPS",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "A",
+        "D3": "Made Progress",
+        "D4": "Untouched",
+        "D5": "Made Progress",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7142,
+        "logical_name": "utbl_control8",
+        "Title": "HP - Managed Servers",
+        "Chunk": "Initiatives",
+        "Project": "2023 BUOPS",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "1",
+        "Extended": "-",
+        "D1": "Made Progress",
+        "D2": "Untouched",
+        "D3": "Made Progress",
+        "D4": "Untouched",
+        "D5": "Made Progress",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7143,
+        "logical_name": "utbl_control9",
+        "Title": "Reporting From Arc CRM - Sales Data",
+        "Chunk": "Initiatives",
+        "Project": "2023 BUOPS",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "-",
+        "D2": "Made Progress",
+        "D3": "Overdue",
+        "D4": "-",
+        "D5": "Overdue",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7144,
+        "logical_name": "utbl_control10",
+        "Title": "Which Data Available / Where / How do we know?",
+        "Chunk": "Initiatives",
+        "Project": "2023 OPSDesign",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "2",
+        "Extended": "3",
+        "D1": "Made Progress",
+        "D2": "Overdue",
+        "D3": "-",
+        "D4": "Untouched",
+        "D5": "Overdue",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7145,
+        "logical_name": "utbl_control11",
+        "Title": "Account Mgmt",
+        "Chunk": "Initiatives",
+        "Project": "2023 OPSDesign",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "Overdue",
+        "D3": "-",
+        "D4": "Overdue",
+        "D5": "-",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7146,
+        "logical_name": "utbl_control12",
+        "Title": "Business Results",
+        "Chunk": "Initiatives",
+        "Project": "2023 OPSDesign",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "-",
+        "D2": "Overdue",
+        "D3": "Made Progress",
+        "D4": "Overdue",
+        "D5": "-",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7147,
+        "logical_name": "utbl_control13",
+        "Title": "Amazon Seller",
+        "Chunk": "Initiatives",
+        "Project": "2023 VTS Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "2",
+        "Extended": "1",
+        "D1": "Made Progress",
+        "D2": "Made Progress",
+        "D3": "Overdue",
+        "D4": "Untouched",
+        "D5": "Overdue",
+        "D6": "Made Progress"
+      },
+      {
+        "icds_entity_id": 7148,
+        "logical_name": "utbl_control14",
+        "Title": "Trainer Hispanic / Consultant",
+        "Chunk": "Initiatives",
+        "Project": "2023 CMS Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "D",
+        "Untouched": "2",
+        "Extended": "1",
+        "D1": "Made Progress",
+        "D2": "Overdue",
+        "D3": "-",
+        "D4": "Overdue",
+        "D5": "-",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7149,
+        "logical_name": "utbl_control15",
+        "Title": "Known Source / Permanent Address Lease Cheap",
+        "Chunk": "House",
+        "Project": "FL Move",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "Overdue",
+        "D3": "-",
+        "D4": "Overdue",
+        "D5": "-",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7150,
+        "logical_name": "utbl_control16",
+        "Title": "2 week stay each in 3 places St Pete/Tampa, Sarasota, WestPalm Beach",
+        "Chunk": "House",
+        "Project": "FL Move",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "Overdue",
+        "D3": "-",
+        "D4": "Untouched",
+        "D5": "Overdue",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7151,
+        "logical_name": "utbl_control17",
+        "Title": "Sub Lease or Apartment ?",
+        "Chunk": "House",
+        "Project": "FL Move",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "Untouched",
+        "D3": "Overdue",
+        "D4": "Untouched",
+        "D5": "-",
+        "D6": "Overdue"
+      },
+      {
+        "icds_entity_id": 7152,
+        "logical_name": "utbl_control18",
+        "Title": "Domicile Work - Detailed Plan",
+        "Chunk": "GRC",
+        "Project": "FL Move",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "-",
+        "D3": "Overdue",
+        "D4": "Made Progress",
+        "D5": "Untouched",
+        "D6": "Overdue"
+      },
+      {
+        "icds_entity_id": 7153,
+        "logical_name": "utbl_control19",
+        "Title": "federal form for operating bank account",
+        "Chunk": "GRC",
+        "Project": "FL Move",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "-",
+        "D3": "Overdue",
+        "D4": "Made Progress",
+        "D5": "Overdue",
+        "D6": "Made Progress"
+      },
+      {
+        "icds_entity_id": 7154,
+        "logical_name": "utbl_control20",
+        "Title": "Domicile Audits",
+        "Chunk": "GRC",
+        "Project": "FL Move",
+        "Untouched": "3",
+        "Extended": "5",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "D1": "Made Progress",
+        "D2": "-",
+        "D3": "Made Progress",
+        "D4": "Untouched",
+        "D5": "Overdue",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7155,
+        "logical_name": "utbl_control21",
+        "Title": "Monitor - Bank Balances & Treasury Transactions",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/08/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "Overdue",
+        "D3": "Untouched",
+        "D4": "Overdue",
+        "D5": "Untouched",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7156,
+        "logical_name": "utbl_control22",
+        "Title": "Validate and followup Bank Transfers",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/08/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "-",
+        "D3": "Untouched",
+        "D4": "Overdue",
+        "D5": "Overdue",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7157,
+        "logical_name": "utbl_control23",
+        "Title": "Validate Online & CC Payments",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/08/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "A",
+        "D2": "Untouched",
+        "D3": "Untouched",
+        "D4": "A",
+        "D5": "Overdue",
+        "D6": "Overdue"
+      },
+      {
+        "icds_entity_id": 7158,
+        "logical_name": "utbl_control24",
+        "Title": "Monitor - AR Deposits",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/09/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "-",
+        "D3": "Overdue",
+        "D4": "-",
+        "D5": "Overdue",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7159,
+        "logical_name": "utbl_control25",
+        "Title": "BOD Call",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/09/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "Made Progress",
+        "D3": "Untouched",
+        "D4": "-",
+        "D5": "Made Progress",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7160,
+        "logical_name": "utbl_control26",
+        "Title": "AP Validation",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/09/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "-",
+        "D3": "Untouched",
+        "D4": "-",
+        "D5": "-",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7161,
+        "logical_name": "utbl_control27",
+        "Title": "Monitor - Bank Balances & Treasury Transactions",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/09/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "-",
+        "D3": "Untouched",
+        "D4": "Untouched",
+        "D5": "-",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7162,
+        "logical_name": "utbl_control28",
+        "Title": "Validate and followup Bank Transfers",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/09/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "Untouched",
+        "D3": "-",
+        "D4": "Untouched",
+        "D5": "-",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7163,
+        "logical_name": "utbl_control29",
+        "Title": "Validate Online & CC Payments",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/09/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "-",
+        "D3": "Untouched",
+        "D4": "-",
+        "D5": "Made Progress",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7164,
+        "logical_name": "utbl_control30",
+        "Title": "Monitor - AR Deposits",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/12/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "Made Progress",
+        "D3": "Made Progress",
+        "D4": "Untouched",
+        "D5": "Made Progress",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7165,
+        "logical_name": "utbl_control31",
+        "Title": "RCM-LG NPI Tracker on Data Scrape 95 Items",
+        "Chunk": "Execution",
+        "Project": "2023 VTS Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "Made Progress",
+        "D3": "-",
+        "D4": "Untouched",
+        "D5": "Made Progress",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7166,
+        "logical_name": "utbl_control32",
+        "Title": "RCM-LG NPI Tracker on Audit with the Data Scrape 66 Items",
+        "Chunk": "Execution",
+        "Project": "2023 VTS Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "Made Progress",
+        "D3": "Made Progress",
+        "D4": "Untouched",
+        "D5": "Made Progress",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7167,
+        "logical_name": "utbl_control33",
+        "Title": "Product Release Plan and Approval meeting",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Pipeline",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "Untouched",
+        "D3": "Made Progress",
+        "D4": "Untouched",
+        "D5": "-",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7168,
+        "logical_name": "utbl_control34",
+        "Title": "COO Reporting",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Pipeline",
+        "DueDate": "09/01/2023",
+        "Priority": "C",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "-",
+        "D3": "Made Progress",
+        "D4": "Untouched",
+        "D5": "-",
+        "D6": "Made Progress"
+      },
+      {
+        "icds_entity_id": 7169,
+        "logical_name": "utbl_control35",
+        "Title": "ByDept2Sales",
+        "Chunk": "Execution",
+        "Project": "By Dept2",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "Untouched",
+        "D3": "Untouched",
+        "D4": "Made Progress",
+        "D5": "-",
+        "D6": "Made Progress"
+      },
+
+      {
+        "icds_entity_id": 7175,
+        "logical_name": "utbl_control41",
+        "Title": "ALL BU High level plan task - April",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "C",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "-",
+        "D2": "-",
+        "D3": "Overdue",
+        "D4": "-",
+        "D5": "-",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7176,
+        "logical_name": "utbl_control42",
+        "Title": "Tom KT plan",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "-",
+        "D3": "Overdue",
+        "D4": "-",
+        "D5": "-",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7177,
+        "logical_name": "utbl_control43",
+        "Title": "Ravi/Munib CMS Release Notes process",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "-",
+        "Extended": "2",
+        "D1": "-",
+        "D2": "Untouched",
+        "D3": "-",
+        "D4": "Overdue",
+        "D5": "-",
+        "D6": "Overdue"
+      },
+      {
+        "icds_entity_id": 7178,
+        "logical_name": "utbl_control44",
+        "Title": "Weekly summary report VTS leads",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "-",
+        "D2": "Overdue",
+        "D3": "-",
+        "D4": "Overdue",
+        "D5": "-",
+        "D6": "Overdue"
+      }
+
+
+    ],
+    "totalRecords": 37
+  },
+
+  "PlanActual_DatasetFieldInfo": {
+    "datasetid": "fa4d043d-86ec-434c-ba37-903fb91da9ba",
+    "title": "Default Lead",
+    "columndata": [
+      {
+        "attributeid": "30010",
+        "displayname": "Title",
+        "ismapped": true,
+        "seq": 10,
+        "screenfieldid": 40010,
+        "dataindex": "Title",
+        "visible": true,
+        "istitle": true,
+        "columnwidth": 300
+      },
+      {
+        "attributeid": "30020",
+        "displayname": "Chunk",
+        "ismapped": true,
+        "seq": 20,
+        "screenfieldid": 40011,
+        "dataindex": "Chunk",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30030",
+        "displayname": "Project",
+        "ismapped": true,
+        "seq": 30,
+        "screenfieldid": 40012,
+        "dataindex": "Project",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30040",
+        "displayname": "Due Date",
+        "ismapped": true,
+        "seq": 40,
+        "screenfieldid": 40013,
+        "dataindex": "DueDate",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30050",
+        "displayname": "Priority",
+        "ismapped": true,
+        "seq": 50,
+        "screenfieldid": 40014,
+        "dataindex": "Priority",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30051",
+        "displayname": "#Untouched",
+        "ismapped": true,
+        "seq": 51,
+        "screenfieldid": 40014,
+        "dataindex": "Untouched",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30052",
+        "displayname": "#Extended",
+        "ismapped": true,
+        "seq": 52,
+        "screenfieldid": 40014,
+        "dataindex": "Extended",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30060",
+        "displayname": "D1",
+        "ismapped": true,
+        "seq": 60,
+        "screenfieldid": 40015,
+        "dataindex": "D1",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30070",
+        "displayname": "D2",
+        "ismapped": true,
+        "seq": 70,
+        "screenfieldid": 40016,
+        "dataindex": "D2",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30080",
+        "displayname": "D3",
+        "ismapped": true,
+        "seq": 80,
+        "screenfieldid": 40017,
+        "dataindex": "D3",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30090",
+        "displayname": "D4",
+        "ismapped": true,
+        "seq": 90,
+        "screenfieldid": 40018,
+        "dataindex": "D4",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30100",
+        "displayname": "D5",
+        "ismapped": true,
+        "seq": 100,
+        "screenfieldid": 40019,
+        "dataindex": "D5",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30110",
+        "displayname": "D6",
+        "ismapped": true,
+        "seq": 110,
+        "screenfieldid": 40020,
+        "dataindex": "D6",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      }
+    ],
+    "filterdata": [
+
+      {
+        "islookup": false,
+        "filterid": "Project",
+        "filterdisplayname": "Project",
+        "ismapped": true,
+        "isquickfilter": true,
+        "masterid": "500101",
+        "keyfield": "optionid",
+        "displayfield": "optionvalue",
+        "controltype": "multiselect",
+        "defaultvalue": null,
+        "apioutputskey": "optionid",
+        "apioutputvalue": "optionvalue",
+        "screenfieldid": "40012",
+        "filtercategory": "",
+        "defaultvalall": ""
+      },
+      {
+        "islookup": false,
+        "filterid": "Status",
+        "filterdisplayname": "Status",
+        "ismapped": true,
+        "isquickfilter": true,
+        "masterid": "500102",
+        "keyfield": "optionid",
+        "displayfield": "optionvalue",
+        "controltype": "multiselect",
+        "defaultvalue": null,
+        "apioutputskey": "optionid",
+        "apioutputvalue": "optionvalue",
+        "screenfieldid": "40013",
+        "filtercategory": "",
+        "defaultvalall": ""
+      },
+      {
+        "islookup": false,
+        "filterid": "Priority",
+        "filterdisplayname": "Priority",
+        "ismapped": true,
+        "isquickfilter": true,
+        "masterid": "500103",
+        "keyfield": "optionid",
+        "displayfield": "optionvalue",
+        "controltype": "multiselect",
+        "defaultvalue": null,
+        "apioutputskey": "optionid",
+        "apioutputvalue": "optionvalue",
+        "screenfieldid": "40013",
+        "filtercategory": "",
+        "defaultvalall": ""
+      },
+      {
+        "islookup": false,
+        "filterid": "Resource",
+        "filterdisplayname": "Resource",
+        "ismapped": true,
+        "isquickfilter": true,
+        "masterid": "",
+        "keyfield": "",
+        "displayfield": "",
+        "controltype": "textbox",
+        "defaultvalue": null,
+        "apioutputskey": "",
+        "apioutputvalue": "",
+        "screenfieldid": "40010",
+        "filtercategory": "",
+        "defaultvalall": ""
+      }
+    ],
+    "groupbydata": [
+      {
+        "attributeid": 30030,
+        "displayname": "Project",
+        "ismapped": true,
+        "type": "",
+        "direction": "",
+        "masterid": "500101",
+        "defaultvalue": "",
+        "screenfieldid": 40012
+      },
+      {
+        "attributeid": 30040,
+        "displayname": "Status",
+        "ismapped": true,
+        "type": "",
+        "direction": "",
+        "masterid": "500102",
+        "defaultvalue": "",
+        "screenfieldid": 40013
+      }
+    ]
+  },
+
+  "PlanExec_Masterdata": [
+
+    {
+      "islookup": false,
+      "masterid": "500101",
+      "mastervalues": [
+        {
+          "optionid": 5001011,
+          "optionvalue": "Project SaasBuyout"
+        },
+        {
+          "optionid": 5001012,
+          "optionvalue": "2023 Sales Adhoc"
+        },
+        {
+          "optionid": 5001013,
+          "optionvalue": "FL Move"
+        },
+        {
+          "optionid": 5001014,
+          "optionvalue": "2023 BUOPS"
+        },
+        {
+          "optionid": 5001015,
+          "optionvalue": "2023 Operations Adhoc"
+        }
+      ]
+    },
+    {
+      "islookup": false,
+      "masterid": "500102",
+      "mastervalues": [
+        {
+          "optionid": 5001021,
+          "optionvalue": "Yet to Start"
+        },
+        {
+          "optionid": 5001022,
+          "optionvalue": "In Progress"
+        },
+        {
+          "optionid": 5001023,
+          "optionvalue": "Complete"
+        },
+        {
+          "optionid": 5001024,
+          "optionvalue": "Backlog"
+        }
+      ]
+    },
+    {
+      "islookup": false,
+      "masterid": "500103",
+      "mastervalues": [
+        {
+          "optionid": 5001021,
+          "optionvalue": "A"
+        },
+        {
+          "optionid": 5001022,
+          "optionvalue": "B"
+        },
+        {
+          "optionid": 5001023,
+          "optionvalue": "C"
+        },
+        {
+          "optionid": 5001024,
+          "optionvalue": "D"
+        }
+      ]
+    }
+  ],
+
+  "PlanExec_Dataset": {
+    "entityid": "10010",
+    "entity": "Entity",
+    "entityData": [
+      {
+        "datasetid": 20010,
+        "title": "All Active Plan",
+        "isdefault": true,
+        "isselected": true
+      },
+      {
+        "datasetid": 20011,
+        "title": "In Progress Plan",
+        "isdefault": true,
+        "isselected": false
+      }
+    ]
+  },
+
+  "PlanExec_Listdata": {
+    "data": [
+      {
+        "icds_entity_id": 7135,
+        "logical_name": "utbl_control1",
+        "Title": "Sales tech stack optimize",
+        "Chunk": "Working Session",
+        "Project": "2023 Sales Adhoc",
+        "DueDate": "07/28/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "Untouched ",
+        "D3": "Overdue",
+        "D4": "-",
+        "D5": "-",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7136,
+        "logical_name": "utbl_control2",
+        "Title": "ZoomInfo search",
+        "Chunk": "Working Session",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "07/28/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "Overdue",
+        "D3": "Untouched",
+        "D4": "Overdue",
+        "D5": "Made Progress",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7137,
+        "logical_name": "utbl_control3",
+        "Title": "CRM customer list clean up",
+        "Chunk": "Working Session",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/08/2023",
+        "Priority": "A",
+        "Untouched": "2",
+        "Extended": "4",
+        "D1": "Untouched",
+        "D2": "Untouched",
+        "D3": "Overdue",
+        "D4": "-",
+        "D5": "Overdue",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7138,
+        "logical_name": "utbl_control4",
+        "Title": "SBO-Case Studies for deals completed",
+        "Chunk": "Insights",
+        "Project": "Project SaasBuyout",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "3",
+        "Extended": "4",
+        "D1": "Overdue",
+        "D2": "Made Progress",
+        "D3": "Untouched",
+        "D4": "Overdue",
+        "D5": "Untouched",
+        "D6": "Made Progress"
+      },
+      {
+        "icds_entity_id": 7139,
+        "logical_name": "utbl_control5",
+        "Title": "SBO-Business Model",
+        "Chunk": "Insights",
+        "Project": "Project SaasBuyout",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "-",
+        "Extended": "1",
+        "D1": "Made Progress",
+        "D2": "Untouched",
+        "D3": "Made Progress",
+        "D4": "Overdue",
+        "D5": "Made Progress",
+        "D6": "Overdue"
+      },
+      {
+        "icds_entity_id": 7140,
+        "logical_name": "utbl_control6",
+        "Title": "SBO-DRS link research",
+        "Chunk": "Insights",
+        "Project": "Project SaasBuyout",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "Made Progress",
+        "D3": "Untouched",
+        "D4": "-",
+        "D5": "Made Progress",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7141,
+        "logical_name": "utbl_control7",
+        "Title": "bMobile Sales Site Down / Root cause / how to avoid in future / Action Plan",
+        "Chunk": "Insight",
+        "Project": "2023 BUOPS",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "A",
+        "D3": "Made Progress",
+        "D4": "Untouched",
+        "D5": "Made Progress",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7142,
+        "logical_name": "utbl_control8",
+        "Title": "HP - Managed Servers",
+        "Chunk": "Initiatives",
+        "Project": "2023 BUOPS",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "1",
+        "Extended": "-",
+        "D1": "Made Progress",
+        "D2": "Untouched",
+        "D3": "Made Progress",
+        "D4": "Untouched",
+        "D5": "Made Progress",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7143,
+        "logical_name": "utbl_control9",
+        "Title": "Reporting From Arc CRM - Sales Data",
+        "Chunk": "Initiatives",
+        "Project": "2023 BUOPS",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "-",
+        "D2": "Made Progress",
+        "D3": "Overdue",
+        "D4": "-",
+        "D5": "Overdue",
+        "D6": "A"
+      },
+      {
+        "icds_entity_id": 7144,
+        "logical_name": "utbl_control10",
+        "Title": "Which Data Available / Where / How do we know?",
+        "Chunk": "Initiatives",
+        "Project": "2023 OPSDesign",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "2",
+        "Extended": "3",
+        "D1": "Made Progress",
+        "D2": "Overdue",
+        "D3": "-",
+        "D4": "Untouched",
+        "D5": "Overdue",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7145,
+        "logical_name": "utbl_control11",
+        "Title": "Account Mgmt",
+        "Chunk": "Initiatives",
+        "Project": "2023 OPSDesign",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "Overdue",
+        "D3": "-",
+        "D4": "Overdue",
+        "D5": "-",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7146,
+        "logical_name": "utbl_control12",
+        "Title": "Business Results",
+        "Chunk": "Initiatives",
+        "Project": "2023 OPSDesign",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "-",
+        "D2": "Overdue",
+        "D3": "Made Progress",
+        "D4": "Overdue",
+        "D5": "-",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7147,
+        "logical_name": "utbl_control13",
+        "Title": "Amazon Seller",
+        "Chunk": "Initiatives",
+        "Project": "2023 VTS Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "2",
+        "Extended": "1",
+        "D1": "Made Progress",
+        "D2": "Made Progress",
+        "D3": "Overdue",
+        "D4": "Untouched",
+        "D5": "Overdue",
+        "D6": "Made Progress"
+      },
+      {
+        "icds_entity_id": 7148,
+        "logical_name": "utbl_control14",
+        "Title": "Trainer Hispanic / Consultant",
+        "Chunk": "Initiatives",
+        "Project": "2023 CMS Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "D",
+        "Untouched": "2",
+        "Extended": "1",
+        "D1": "Made Progress",
+        "D2": "Overdue",
+        "D3": "-",
+        "D4": "Overdue",
+        "D5": "-",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7149,
+        "logical_name": "utbl_control15",
+        "Title": "Known Source / Permanent Address Lease Cheap",
+        "Chunk": "House",
+        "Project": "FL Move",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "Overdue",
+        "D3": "-",
+        "D4": "Overdue",
+        "D5": "-",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7150,
+        "logical_name": "utbl_control16",
+        "Title": "2 week stay each in 3 places St Pete/Tampa, Sarasota, WestPalm Beach",
+        "Chunk": "House",
+        "Project": "FL Move",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "Overdue",
+        "D3": "-",
+        "D4": "Untouched",
+        "D5": "Overdue",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7151,
+        "logical_name": "utbl_control17",
+        "Title": "Sub Lease or Apartment ?",
+        "Chunk": "House",
+        "Project": "FL Move",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "Untouched",
+        "D3": "Overdue",
+        "D4": "Untouched",
+        "D5": "-",
+        "D6": "Overdue"
+      },
+      {
+        "icds_entity_id": 7152,
+        "logical_name": "utbl_control18",
+        "Title": "Domicile Work - Detailed Plan",
+        "Chunk": "GRC",
+        "Project": "FL Move",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "-",
+        "D3": "Overdue",
+        "D4": "Made Progress",
+        "D5": "Untouched",
+        "D6": "Overdue"
+      },
+      {
+        "icds_entity_id": 7153,
+        "logical_name": "utbl_control19",
+        "Title": "federal form for operating bank account",
+        "Chunk": "GRC",
+        "Project": "FL Move",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "-",
+        "D3": "Overdue",
+        "D4": "Made Progress",
+        "D5": "Overdue",
+        "D6": "Made Progress"
+      },
+      {
+        "icds_entity_id": 7154,
+        "logical_name": "utbl_control20",
+        "Title": "Domicile Audits",
+        "Chunk": "GRC",
+        "Project": "FL Move",
+        "Untouched": "3",
+        "Extended": "5",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "D1": "Made Progress",
+        "D2": "-",
+        "D3": "Made Progress",
+        "D4": "Untouched",
+        "D5": "Overdue",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7155,
+        "logical_name": "utbl_control21",
+        "Title": "Monitor - Bank Balances & Treasury Transactions",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/08/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "Overdue",
+        "D3": "Untouched",
+        "D4": "Overdue",
+        "D5": "Untouched",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7156,
+        "logical_name": "utbl_control22",
+        "Title": "Validate and followup Bank Transfers",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/08/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "-",
+        "D3": "Untouched",
+        "D4": "Overdue",
+        "D5": "Overdue",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7157,
+        "logical_name": "utbl_control23",
+        "Title": "Validate Online & CC Payments",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/08/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "A",
+        "D2": "Untouched",
+        "D3": "Untouched",
+        "D4": "A",
+        "D5": "Overdue",
+        "D6": "Overdue"
+      },
+      {
+        "icds_entity_id": 7158,
+        "logical_name": "utbl_control24",
+        "Title": "Monitor - AR Deposits",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/09/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "-",
+        "D3": "Overdue",
+        "D4": "-",
+        "D5": "Overdue",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7159,
+        "logical_name": "utbl_control25",
+        "Title": "BOD Call",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/09/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "Made Progress",
+        "D3": "Untouched",
+        "D4": "-",
+        "D5": "Made Progress",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7160,
+        "logical_name": "utbl_control26",
+        "Title": "AP Validation",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/09/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "-",
+        "D3": "Untouched",
+        "D4": "-",
+        "D5": "-",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7161,
+        "logical_name": "utbl_control27",
+        "Title": "Monitor - Bank Balances & Treasury Transactions",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/09/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "-",
+        "D3": "Untouched",
+        "D4": "Untouched",
+        "D5": "-",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7162,
+        "logical_name": "utbl_control28",
+        "Title": "Validate and followup Bank Transfers",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/09/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "Untouched",
+        "D3": "-",
+        "D4": "Untouched",
+        "D5": "-",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7163,
+        "logical_name": "utbl_control29",
+        "Title": "Validate Online & CC Payments",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/09/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "-",
+        "D3": "Untouched",
+        "D4": "-",
+        "D5": "Made Progress",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7164,
+        "logical_name": "utbl_control30",
+        "Title": "Monitor - AR Deposits",
+        "Chunk": "General",
+        "Project": "2023 Finance Adhoc",
+        "DueDate": "02/12/2024",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "Made Progress",
+        "D3": "Made Progress",
+        "D4": "Untouched",
+        "D5": "Made Progress",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7165,
+        "logical_name": "utbl_control31",
+        "Title": "RCM-LG NPI Tracker on Data Scrape 95 Items",
+        "Chunk": "Execution",
+        "Project": "2023 VTS Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "Made Progress",
+        "D3": "-",
+        "D4": "Untouched",
+        "D5": "Made Progress",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7166,
+        "logical_name": "utbl_control32",
+        "Title": "RCM-LG NPI Tracker on Audit with the Data Scrape 66 Items",
+        "Chunk": "Execution",
+        "Project": "2023 VTS Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "Made Progress",
+        "D3": "Made Progress",
+        "D4": "Untouched",
+        "D5": "Made Progress",
+        "D6": "Untouched"
+      },
+      {
+        "icds_entity_id": 7167,
+        "logical_name": "utbl_control33",
+        "Title": "Product Release Plan and Approval meeting",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Pipeline",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "Untouched",
+        "D3": "Made Progress",
+        "D4": "Untouched",
+        "D5": "-",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7168,
+        "logical_name": "utbl_control34",
+        "Title": "COO Reporting",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Pipeline",
+        "DueDate": "09/01/2023",
+        "Priority": "C",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "-",
+        "D3": "Made Progress",
+        "D4": "Untouched",
+        "D5": "-",
+        "D6": "Made Progress"
+      },
+      {
+        "icds_entity_id": 7169,
+        "logical_name": "utbl_control35",
+        "Title": "ByDept2Sales",
+        "Chunk": "Execution",
+        "Project": "By Dept2",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Made Progress",
+        "D2": "Untouched",
+        "D3": "Untouched",
+        "D4": "Made Progress",
+        "D5": "-",
+        "D6": "Made Progress"
+      },
+
+      {
+        "icds_entity_id": 7175,
+        "logical_name": "utbl_control41",
+        "Title": "ALL BU High level plan task - April",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "C",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "-",
+        "D2": "-",
+        "D3": "Overdue",
+        "D4": "-",
+        "D5": "-",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7176,
+        "logical_name": "utbl_control42",
+        "Title": "Tom KT plan",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "B",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "Untouched",
+        "D2": "-",
+        "D3": "Overdue",
+        "D4": "-",
+        "D5": "-",
+        "D6": "-"
+      },
+      {
+        "icds_entity_id": 7177,
+        "logical_name": "utbl_control43",
+        "Title": "Ravi/Munib CMS Release Notes process",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "-",
+        "Extended": "2",
+        "D1": "-",
+        "D2": "Untouched",
+        "D3": "-",
+        "D4": "Overdue",
+        "D5": "-",
+        "D6": "Overdue"
+      },
+      {
+        "icds_entity_id": 7178,
+        "logical_name": "utbl_control44",
+        "Title": "Weekly summary report VTS leads",
+        "Chunk": "Execution",
+        "Project": "2023 Operations Adhoc",
+        "DueDate": "09/01/2023",
+        "Priority": "A",
+        "Untouched": "3",
+        "Extended": "5",
+        "D1": "-",
+        "D2": "Overdue",
+        "D3": "-",
+        "D4": "Overdue",
+        "D5": "-",
+        "D6": "Overdue"
+      }
+
+
+    ],
+    "totalRecords": 37
+  },
+
+  "PlanExec_DatasetFieldInfo": {
+    "datasetid": "fa4d043d-86ec-434c-ba37-903fb91da9ba",
+    "title": "Default Lead",
+    "columndata": [
+      {
+        "attributeid": "30010",
+        "displayname": "Title",
+        "ismapped": true,
+        "seq": 10,
+        "screenfieldid": 40010,
+        "dataindex": "Title",
+        "visible": true,
+        "istitle": true,
+        "columnwidth": 300
+      },
+      {
+        "attributeid": "30020",
+        "displayname": "Chunk",
+        "ismapped": true,
+        "seq": 20,
+        "screenfieldid": 40011,
+        "dataindex": "Chunk",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30030",
+        "displayname": "Project",
+        "ismapped": true,
+        "seq": 30,
+        "screenfieldid": 40012,
+        "dataindex": "Project",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30040",
+        "displayname": "Due Date",
+        "ismapped": true,
+        "seq": 40,
+        "screenfieldid": 40013,
+        "dataindex": "DueDate",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30050",
+        "displayname": "Priority",
+        "ismapped": true,
+        "seq": 50,
+        "screenfieldid": 40014,
+        "dataindex": "Priority",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30051",
+        "displayname": "#Untouched",
+        "ismapped": true,
+        "seq": 51,
+        "screenfieldid": 40014,
+        "dataindex": "Untouched",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30052",
+        "displayname": "#Extended",
+        "ismapped": true,
+        "seq": 52,
+        "screenfieldid": 40014,
+        "dataindex": "Extended",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30060",
+        "displayname": "D1",
+        "ismapped": true,
+        "seq": 60,
+        "screenfieldid": 40015,
+        "dataindex": "D1",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30070",
+        "displayname": "D2",
+        "ismapped": true,
+        "seq": 70,
+        "screenfieldid": 40016,
+        "dataindex": "D2",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30080",
+        "displayname": "D3",
+        "ismapped": true,
+        "seq": 80,
+        "screenfieldid": 40017,
+        "dataindex": "D3",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30090",
+        "displayname": "D4",
+        "ismapped": true,
+        "seq": 90,
+        "screenfieldid": 40018,
+        "dataindex": "D4",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30100",
+        "displayname": "D5",
+        "ismapped": true,
+        "seq": 100,
+        "screenfieldid": 40019,
+        "dataindex": "D5",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      },
+      {
+        "attributeid": "30110",
+        "displayname": "D6",
+        "ismapped": true,
+        "seq": 110,
+        "screenfieldid": 40020,
+        "dataindex": "D6",
+        "visible": true,
+        "istitle": false,
+        "columnwidth": 150
+      }
+    ],
+    "filterdata": [
+
+      {
+        "islookup": false,
+        "filterid": "Project",
+        "filterdisplayname": "Project",
+        "ismapped": true,
+        "isquickfilter": true,
+        "masterid": "500101",
+        "keyfield": "optionid",
+        "displayfield": "optionvalue",
+        "controltype": "multiselect",
+        "defaultvalue": null,
+        "apioutputskey": "optionid",
+        "apioutputvalue": "optionvalue",
+        "screenfieldid": "40012",
+        "filtercategory": "",
+        "defaultvalall": ""
+      },
+      {
+        "islookup": false,
+        "filterid": "Status",
+        "filterdisplayname": "Status",
+        "ismapped": true,
+        "isquickfilter": true,
+        "masterid": "500102",
+        "keyfield": "optionid",
+        "displayfield": "optionvalue",
+        "controltype": "multiselect",
+        "defaultvalue": null,
+        "apioutputskey": "optionid",
+        "apioutputvalue": "optionvalue",
+        "screenfieldid": "40013",
+        "filtercategory": "",
+        "defaultvalall": ""
+      },
+      {
+        "islookup": false,
+        "filterid": "Priority",
+        "filterdisplayname": "Priority",
+        "ismapped": true,
+        "isquickfilter": true,
+        "masterid": "500103",
+        "keyfield": "optionid",
+        "displayfield": "optionvalue",
+        "controltype": "multiselect",
+        "defaultvalue": null,
+        "apioutputskey": "optionid",
+        "apioutputvalue": "optionvalue",
+        "screenfieldid": "40013",
+        "filtercategory": "",
+        "defaultvalall": ""
+      },
+      {
+        "islookup": false,
+        "filterid": "Resource",
+        "filterdisplayname": "Resource",
+        "ismapped": true,
+        "isquickfilter": true,
+        "masterid": "",
+        "keyfield": "",
+        "displayfield": "",
+        "controltype": "textbox",
+        "defaultvalue": null,
+        "apioutputskey": "",
+        "apioutputvalue": "",
+        "screenfieldid": "40010",
+        "filtercategory": "",
+        "defaultvalall": ""
+      }
+    ],
+    "groupbydata": [
+      {
+        "attributeid": 30030,
+        "displayname": "Project",
+        "ismapped": true,
+        "type": "",
+        "direction": "",
+        "masterid": "500101",
+        "defaultvalue": "",
+        "screenfieldid": 40012
+      },
+      {
+        "attributeid": 30040,
+        "displayname": "Status",
+        "ismapped": true,
+        "type": "",
+        "direction": "",
+        "masterid": "500102",
+        "defaultvalue": "",
+        "screenfieldid": 40013
+      }
+    ]
+  },
+
+  "PlanExec_360Details": {
+    "listdetailid": "7135",
+    "listdetailShortname": "ST",
+    "listdetailPrimaryname": "Sales tech stack optimize",
+    "listdetailSecondaryname": "Sales tech stack optimize",
+    "listdetailDescription": "Sales tech stack optimize",
+    "basicinfo": [
+      {
+        "icontype": "text",
+        "value": "Sales tech stack optimize"
+      },
+      {
+        "icontype": "text",
+        "value": "2023 Sales Adhoc"
+      },
+      {
+        "icontype": "text",
+        "value": "07/28/2023"
+      }
+    ],
+    "additionalinfo": [
+      {
+        "labeltext": "Plan Date",
+        "value": "07/28/2023"
+      },
+      {
+        "labeltext": "Due Date",
+        "value": "07/28/2024"
+      }
+    ],
+    "Generalinfo": [
+      {
+        "labeltext": "Title",
+        "value": "Sales tech stack optimize"
+      },
+      {
+        "labeltext": "Project Name",
+        "value": "2023 Sales Adhoc"
+      },
+      {
+        "labeltext": "Chunk Name",
+        "value": "Working Session"
+      },
+      {
+        "labeltext": "Task Name",
+        "value": "Sales tech stack optimize"
+      },
+      {
+        "labeltext": "Priority",
+        "value": "A"
+      },
+      {
+        "labeltext": "Status",
+        "value": "Completed"
+      },
+      {
+        "labeltext": "Owner",
+        "value": "-"
+      }
+    ]
+
+
+
+  },
+
+  "PlanExec_360DetailsListdata": {
+    "data": [
+      {
+        "Task": "Archarina - Website - Discussion",
+        "Execution Date": "08/28/2024",
+        "Status": "Completed"
+      },
+      {
+        "Task": "Weekly summary report VTS leads",
+        "Execution Date": "07/28/2023",
+        "Status": "Completed"
+      },
+      {
+        "Task": "COO Reporting",
+        "Execution Date": "03/28/2024",
+        "Status": "Backlog"
+      },
+      {
+        "Task": "BEM Projects",
+        "Execution Date": "04/28/2024",
+        "Status": "In Progress"
+      },
+      {
+        "Task": "Business Results",
+        "Execution Date": "05/28/2024",
+        "Status": "In Progress"
+      },
+      {
+        "Task": "Monitor - AR Deposits",
+        "Execution Date": "06/28/2024",
+        "Status": "Backlog"
+      },
+      {
+        "Task": "AP Validation",
+        "Execution Date": "06/28/2024",
+        "Status": "In Progress"
+      },
+      {
+        "Task": "Product Release Plan and Approval meeting",
+        "Execution Date": "07/28/2024",
+        "Status": "Backlog"
+      },
+      {
+        "Task": "CRM customer list clean up",
+        "Execution Date": "06/28/2024",
+        "Status": "In Progress"
+      },
+      {
+        "Task": "HGA - Decide on the Device",
+        "Execution Date": "06/28/2023",
+        "Status": "In Progress"
+      },
+      {
+        "Task": "Plan next meeting with Eric",
+        "Execution Date": "07/28/2023",
+        "Status": "Backlog"
+      },
+      {
+        "Task": "Archarina - Website - Discussion",
+        "Execution Date": "07/28/2023",
+        "Status": "In Progress"
+      },
+      {
+        "Task": "Recruitment Quick Check",
+        "Execution Date": "07/28/2023",
+        "Status": "Backlog"
+      }
+
+    ],
+    "totalRecords": 12
+  },
+
+  "PlanExec_FormmetaAttributes": {
+    "id": "FE8F3D1F-C6A4-44D1-BEB5-599DE1D331CF",
+    "sections": [
+      {
+        "id": "5B586DFC-0126-4851-A4D4-0545AA67D77B",
+        "display_label": "CORE",
+        "sequence_number": 1,
+        "fields": [
+
+          {
+            "id": "30",
+            "controltype": "textbox",
+            "data_type": "text",
+            "sequence_number": 3,
+            "label_text": "Title",
+            "tooltip": null,
+            "field_read_only": true,
+            "required": true,
+            "display_label": "Title",
+            "filterable": true,
+            "visible": true,
+            "api_name": "DisplayName",
+            "decimal_place": null,
+            "length": 0,
+            "default_value": null,
+            "masterlist_values": null
+          },
+          {
+            "id": "40",
+            "controltype": "dropdown",
+            "data_type": "text",
+            "sequence_number": 4,
+            "label_text": "Project",
+            "tooltip": null,
+            "field_read_only": false,
+            "required": true,
+            "display_label": "Project",
+            "filterable": true,
+            "visible": true,
+            "api_name": "Project",
+            "decimal_place": null,
+            "length": 0,
+            "default_value": null,
+            "masterlist_values": [
+              {
+                "optionid": 5001011,
+                "optionvalue": "Project SaasBuyout"
+              },
+              {
+                "optionid": 5001012,
+                "optionvalue": "2023 Sales Adhoc"
+              },
+              {
+                "optionid": 5001013,
+                "optionvalue": "FL Move"
+              },
+              {
+                "optionid": 5001014,
+                "optionvalue": "2023 BUOPS"
+              },
+              {
+                "optionid": 5001015,
+                "optionvalue": "2023 Operations Adhoc"
+              }
+            ]
+          },
+
+          {
+            "id": "41",
+            "controltype": "textbox",
+            "data_type": "text",
+            "sequence_number": 3,
+            "label_text": "Chunk",
+            "tooltip": null,
+            "field_read_only": true,
+            "required": false,
+            "display_label": "Chunk",
+            "filterable": true,
+            "visible": true,
+            "api_name": "Chunk",
+            "decimal_place": null,
+            "length": 0,
+            "default_value": null,
+            "masterlist_values": null
+          },
+
+          {
+            "id": "50",
+            "controltype": "dropdown",
+            "data_type": "text",
+            "sequence_number": 5,
+            "label_text": "Priority",
+            "tooltip": null,
+            "field_read_only": true,
+            "required": true,
+            "display_label": "Priority",
+            "filterable": true,
+            "visible": true,
+            "api_name": "Priority",
+            "decimal_place": null,
+            "length": 0,
+            "default_value": null,
+            "masterlist_values": [
+              {
+                "optionid": 5001021,
+                "optionvalue": "A"
+              },
+              {
+                "optionid": 5001022,
+                "optionvalue": "B"
+              },
+              {
+                "optionid": 5001023,
+                "optionvalue": "C"
+              },
+              {
+                "optionid": 5001024,
+                "optionvalue": "D"
+              }
+
+            ]
+          },
+          {
+            "id": "51",
+            "controltype": "dropdown",
+            "data_type": "text",
+            "sequence_number": 5,
+            "label_text": "Status",
+            "tooltip": null,
+            "field_read_only": true,
+            "required": true,
+            "display_label": "Status",
+            "filterable": true,
+            "visible": true,
+            "api_name": "Status",
+            "decimal_place": null,
+            "length": 0,
+            "default_value": null,
+            "masterlist_values": [
+              {
+                "optionid": 5001021,
+                "optionvalue": "Yet to Start"
+              },
+              {
+                "optionid": 5001022,
+                "optionvalue": "In Progress"
+              },
+              {
+                "optionid": 5001023,
+                "optionvalue": "Complete"
+              },
+              {
+                "optionid": 5001024,
+                "optionvalue": "Backlog"
+              }
+
+            ]
+          },
+
+          {
+            "id": "52",
+            "controltype": "textarea",
+            "data_type": "text",
+            "sequence_number": 6,
+            "label_text": "Description",
+            "tooltip": null,
+            "field_read_only": true,
+            "required": false,
+            "display_label": "Description",
+            "filterable": true,
+            "visible": true,
+            "api_name": "Description",
+            "decimal_place": null,
+            "length": 0,
+            "default_value": null,
+            "masterlist_values": null
+          }
+        ]
+      },
+      {
+        "id": "5B586DFC-0126-4851-A4D4-0545AA67D78B",
+        "display_label": "PLAN",
+        "sequence_number": 2,
+        "fields": [
+          {
+            "id": "81",
+            "controltype": "textbox",
+            "data_type": "text",
+            "sequence_number": 9,
+            "label_text": "Plan Date",
+            "tooltip": null,
+            "field_read_only": true,
+            "required": true,
+            "display_label": "Plan Date",
+            "filterable": true,
+            "visible": true,
+            "api_name": "Plan Date",
+            "decimal_place": null,
+            "length": 0,
+            "default_value": null,
+            "masterlist_values": null
+          },
+          {
+            "id": "82",
+            "controltype": "textbox",
+            "data_type": "text",
+            "sequence_number": 10,
+            "label_text": "Due Date",
+            "tooltip": null,
+            "field_read_only": true,
+            "required": true,
+            "display_label": "Due Date",
+            "filterable": true,
+            "visible": true,
+            "api_name": "Due Date",
+            "decimal_place": null,
+            "length": 0,
+            "default_value": null,
+            "masterlist_values": null
+          },
+          {
+            "id": "83",
+            "controltype": "textbox",
+            "data_type": "text",
+            "sequence_number": 11,
+            "label_text": "Resource",
+            "tooltip": null,
+            "field_read_only": true,
+            "required": true,
+            "display_label": "Resource",
+            "filterable": true,
+            "visible": true,
+            "api_name": "VERTICALGROUPBY",
+            "decimal_place": null,
+            "length": 0,
+            "default_value": null,
+            "masterlist_values": null
+          }
+       
+        ]
+      }
+     
+    ]
+  },
+
+  "PlanExec_Entity360Details": {
+    "entityid_apiname": "Id",
+    "shortname_apiname": "displayname",
+    "primaryname_apiname": "displayname",
+    "secondaryname_apiname": "displayname",
+    "descriptionname_apiname": "description",
+    "basicinfo": [
+      {
+        "api_name": "displayname",
+        "icontype": "text"
+      },
+      {
+        "api_name": "entitytype_text",
+        "icontype": "text"
+      },
+
+      {
+        "api_name": "category_text",
+        "icontype": "description"
+      }
+    ],
+    "additionalinfo": [
+      {
+        "api_name": "subcategory_text",
+        "labeltext": "Instance"
+      },
+      {
+        "api_name": "",
+        "labeltext": "Workflow"
+      }
+    ],
+    "Generalinfo": [
+      {
+        "api_name": "displayname",
+        "labeltext": "Entity Name"
+      },
+      {
+        "api_name": "entitytype_text",
+        "labeltext": "Entity Type"
+      },
+      {
+        "api_name": "category_text",
+        "labeltext": "Entity Category"
+      }
+
+    ]
+
+  }
+
+}
